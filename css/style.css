@@ -1,0 +1,160 @@
+/*Global styles*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #151515;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.console-blocks {
+    background-color: #193549;
+    max-height: 610px;
+    height: 100%;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 90px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 48px;
+}
+
+.top-block {
+    display: flex;
+    padding-top: 9px;
+    position: relative;
+    justify-content: center;
+    border-bottom: 2px solid #301B3F;
+}
+
+.console-title {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+
+
+/*Header*/
+.header {
+    background-image: url("/img/zoro-header.png");
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    padding-bottom: 112px;
+    background-size: contain;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #301B3F;
+    border-radius: 15px;
+    padding: 15px 32px;
+    color: white;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+.header-title {
+    position: relative;
+}
+
+.h1-img {
+    position: absolute;
+    margin-top: -84px;
+    margin-left: 95px;
+}
+
+
+/*About us*/
+
+.command {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+}
+
+.content-title {
+    margin: 0;
+    color: #4AF626;
+    line-height: 39px;
+    font-size: 32px;
+}
+
+.content-text,
+.content-link {
+    color: white;
+    margin: 0;
+    margin-left: 4px;
+    line-height: 39px;
+    font-size: 32px;
+}
+
+.content-link:hover {
+    color: #4AF626;
+}
+
+
+.content-container {
+    margin-top: 90px;
+}
+
+.pfp {
+    border-radius: 360px;
+    max-height: 360px;
+    max-width: 360px;
+    margin-left: 16px;
+    margin-right: 55px;
+}
+
+.console-content {
+    display: flex;
+}
+
+.about-me-details {
+    list-style: none;
+    margin: 0;
+}
+
+.about-me-item {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/*Socials*/
+
+.socials {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.social-links {
+    color: #4AF626;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 400;
+}
