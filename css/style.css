@@ -54,7 +54,7 @@ body {
 
 /*Header*/
 .header {
-    background-image: url("/img/zoro-header.png");
+    background-image: url("../img/zoro-header.png");
     background-repeat: no-repeat;
     padding-top: 140px;
     padding-bottom: 112px;
